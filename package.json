@@ -1,0 +1,20 @@
+{
+  "name": "cypress-tallos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "env-prod": "rm --force cypress.env.json && cp ./.env.prod ./cypress.env.json",
+    "env-homo": "rm --force cypress.env.json && cp ./.env.homo ./cypress.env.json",
+    "env-local": "rm --force cypress.env.json && cp ./.env.local ./cypress.env.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
+    "cypress": "^13.1.0",
+    "typescript": "^5.1.6"
+  }
+}

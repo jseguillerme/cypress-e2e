@@ -1,0 +1,4 @@
+node_modules
+.env.homo
+.env.prod
+cypress.env.json
